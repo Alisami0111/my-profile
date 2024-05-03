@@ -17,14 +17,14 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#f7dbd3] text-gray-900 z-10'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#f7dbd3] text-gray-900 z-10 border-b-2 border-[#DD5746]'>
       <div>
         <img src={Logo} alt='Logo Image' style={{ width: '200px' }} />
       </div>
 
       {/* menu */}
       <ul className='hidden md:flex'>
-        <li className='text-xl px-2 py-2 cursor-pointer hover:scale-110  hover:text-[#DD5746] duration-300'>
+        <li className='text-xl px-2 py-2 cursor-pointer hover:scale-105  hover:text-[#DD5746] duration-300'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>

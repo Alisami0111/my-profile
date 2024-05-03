@@ -1,16 +1,18 @@
 import React from 'react';
 import Ali from '../assets/ali.png';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import './home.css'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#f7dbd3]'>
+    <div name='home' className=' h-screen  container1'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-1 md:max-w-[60%] md:ml-[100px] px-8 flex flex-col flex-1 justify-center align-start h-full'>
+      <div className='max-w-[1330px] mx-1 md:max-w-[60%] md:ml-[100px] px-8 flex flex-col flex-1 justify-center align-start h-full'>
         <p className='text-[#A34343]'>Hi, my name is</p>
         <h1 className=' text-4xl sm:text-7xl font-bold text-[#DD5746]'>
           Ali Sami
         </h1>
+      
         <h2 className='text-4xl sm:text-7xl font-bold text-[#2a2a2c]'>
           I'm a Full Stack Developer.
         </h2>
